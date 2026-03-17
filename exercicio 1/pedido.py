@@ -13,8 +13,7 @@ cursor = conn.cursor()
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS pedidos (
     pedidos_id TEXT PRIMARY KEY, 
-    cliente TEXT
-    produtos TEXT,
+    cliente TEXT,
     total REAL, 
     hash TEXT, 
     nome TEXT,
