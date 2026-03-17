@@ -68,7 +68,7 @@ async def processar_pedido(pedido, session):
 
             total += preco * quantidade
 
-        # desconto
+        # desconto de 10%
 
         if total > 500:
             total = total * 0.9
